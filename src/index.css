@@ -173,15 +173,17 @@ footer button:hover{
     transform: rotate(360deg);
   }
 }
-/* @media (min-width: 640px){
+@media (min-width: 640px){
   .sidebar{
     position: relative;
     inset: unset;
     min-width: 30%;
+    max-height: 100vh;
     box-shadow: 0 0 40px 1px #030615;
   }
 
   .sidebarContents{
     margin: unset;
+    width: 100%;
   } 
-}*/
+}
